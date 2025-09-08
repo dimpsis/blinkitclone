@@ -8,6 +8,7 @@
 header {
     display: flex;
     align-items: center;
+    gap: 40px;
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
 }
@@ -37,5 +38,24 @@ header {
 
 .Search {
     flex-grow: 1;
-    border: 1px solid red;
+    background-color: #f7f7f7;
+    display: flex;
+    border: 1px solid #f7f7f7;
+    border-radius: 15px;
+}
+
+.Search button {
+    padding: 15px;
+    border: none;
+    background-color: transparent;
+}
+
+.Search input {
+    flex-grow: 1;
+    border: none;
+    background-color: transparent;
+}
+
+.Search input:focus {
+    outline: none;
 }
