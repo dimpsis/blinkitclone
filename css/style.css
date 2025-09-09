@@ -59,3 +59,23 @@ header {
 .Search input:focus {
     outline: none;
 }
+
+.header-btn {
+    display: flex;
+    gap: 40px;
+    margin-right: 40px;
+}
+
+.header-btn button {
+    font-size: 16px;
+    padding: 15px;
+    background-color: transparent;
+    border: none;
+}
+
+.header-btn button:last-child {
+    background-color: rgb(12, 131, 31);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
