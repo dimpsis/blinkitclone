@@ -79,3 +79,27 @@ header {
     font-weight: bold;
     border-radius: 5px;
 }
+
+.banner-section {
+    margin: auto;
+    max-width: 1280px;
+}
+
+.banner-section img {
+    width: 100%;
+}
+
+.order-bnr {
+    display: flex;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.order-items {
+    flex-basis: 28%;
+}
+
+.order-items img {
+    width: 100%;
+    padding: 10px;
+}
