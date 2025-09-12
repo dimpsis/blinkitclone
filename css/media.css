@@ -56,4 +56,20 @@
         flex-basis: 25%;
     }
 
+    .headingRow {
+        padding: 5px;
+    }
+
+    .productRow {
+        flex-wrap: wrap;
+        gap: 2%;
+        padding: 0px 10px;
+
+    }
+
+    .product-item {
+        flex-basis: 48%;
+        margin-bottom: 15px;
+    }
+
 }

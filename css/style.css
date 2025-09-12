@@ -122,7 +122,7 @@ header {
 .product-sect {
     max-width: 1280px;
     margin: auto;
-    padding: 30px 0px;
+    padding: 30px 0px 0px 20px;
 }
 
 .headingRow {
@@ -133,19 +133,19 @@ header {
 
 .headingRow h2 {
     font-size: 22px;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .headingRow a {
     color: #328839;
     font-size: 18px;
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 .productRow {
     width: 100%;
-    margin: 20px;
+    margin: 20px 0px 0px 0px;
     display: flex;
     gap: 1.5%;
 }
